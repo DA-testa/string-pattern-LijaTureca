@@ -12,8 +12,8 @@ def read_input():
         file=input()
         name="tests/"+file
         with open(name,"r") as file:
-                p=file.readline().rstrip()
-                line=file.readline().rstrip()
+                p=name.readline().rstrip()
+                line=name.readline().rstrip()
     
     return (p, line)
 
