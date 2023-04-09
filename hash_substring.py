@@ -28,10 +28,10 @@ def read_input():
         line = input().strip()
 
     elif input_type == 'F':
-        filename = input().strip()
+        filename = input()
         with open(filename,"r") as file:
-            p = file.readline().strip()
-            line = file.readline().strip()
+            p = file.readline()
+            line = file.readline()
 
     else:
         print("Invalid input type. Please choose either 'I' for input from keyboard or 'F' for input from file.")
