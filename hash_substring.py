@@ -3,12 +3,12 @@
 def read_input():
     # this function needs to aquire input both from keyboard and file
     # as before, use capital i (input from keyboard) and capital f (input from file) to choose which input type will follow
-    command=input().upper()
-    if 'I' in command:
+    input_type = input().strip().upper()
+    if input_type == 'I':
         p=input()
         line=input()
 
-    if 'F' in command:
+    elif input_type == 'F':
         file=input()
         name="tests/"+file
         with open(name,"r") as file:
