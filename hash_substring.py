@@ -3,17 +3,17 @@ import re
 def read_input():
     # this function needs to aquire input both from keyboard and file
     # as before, use capital i (input from keyboard) and capital f (input from file) to choose which input type will follow
-    command=input()
-    if 'I' in command:
+#     command=input()
+#     if 'I' in command:
         p=input()
         line=input()
 
-    if 'F' in command:
-        file=input()
-        name="tests/"+file
-        with open(name,"r") as file:
-                p=name.readline().rstrip()
-                line=name.readline().rstrip()
+#     if 'F' in command:
+#         file=input()
+#         name="tests/"+file
+#         with open(name,"r") as file:
+#                 p=name.readline().rstrip()
+#                 line=name.readline().rstrip()
     
     return (p, line)
 
