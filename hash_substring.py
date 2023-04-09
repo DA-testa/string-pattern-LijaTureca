@@ -17,7 +17,7 @@ def read_input():
     
     return (p, line)
 
-def read_input():
+# def read_input():
 #     # this function needs to acquire input both from keyboard and file
 #     # as before, use capital i (input from keyboard) and capital f (for input from file)
 
