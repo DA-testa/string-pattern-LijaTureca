@@ -29,7 +29,7 @@ def read_input():
 
     elif input_type == 'F':
         filename = input().strip()
-        with open(f"tests/{filename}") as file:
+        with open(filename,"r") as file:
             p = file.readline().strip()
             line = file.readline().strip()
 
