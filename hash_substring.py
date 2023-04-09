@@ -10,7 +10,7 @@ def read_input():
 
     if 'F' in command:
         file=input()
-        name="test/"+file
+        name="tests/"+file
         with open(name,"r") as file:
                 p=file.readline().rstrip()
                 line=file.readline().rstrip()
