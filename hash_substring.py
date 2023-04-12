@@ -1,6 +1,7 @@
 # python3
 
-
+B=13
+Q=256
 def read_input():
     # this function needs to acquire input both from keyboard and file
     # as before, use capital i (input from keyboard) and capital f (for input from file)
